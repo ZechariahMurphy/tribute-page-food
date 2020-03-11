@@ -1,0 +1,225 @@
+body {
+    margin: 10px 60px;
+    background-image: url(/images/seamless_pizza_image.jpg);
+}
+
+#main {
+    margin: 90px 65px 90px 65px;
+    padding-top: 10px;
+    background-color: rgb(245, 241, 230);
+    border-radius: 15px;
+    box-shadow: 5px 10px 35px 15px #2e2d2dc7;
+}
+
+header {
+    margin-top: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 125px;
+}
+
+#title {
+    padding-top: 0%;
+}
+
+#table {
+    display: table;
+    margin: 0 auto;
+}
+
+#horizontal-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#horizontal-list li {
+    border-right: 1px solid black;
+    display: inline;
+    text-align: center;
+    padding: 1px 10px;
+}
+
+#horizontal-list li:last-child {
+    border-right: none;
+    margin: auto;
+}
+
+#pizza_image {
+    height: 16em;
+    margin: 15px 0px 6px 0px;
+}
+
+#sushi_image {
+    height: 17em;
+    margin: auto;
+}
+
+#bibimbap_image {
+    height: 19em;
+    margin: auto;
+}
+
+hr {
+    padding: 2px;
+    width: 80%;
+    border-radius: 35%;
+    background-color: black;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#hr4 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+h2 {
+    padding-left: 50px;
+    font-size: 2.2em;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 2em;
+    font-size: 1.1em;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+a {
+    color: rgb(51, 112, 66);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+a:hover:not(.to-top) {
+    color: rgb(30, 83, 44);
+    font-weight: bold;
+}
+
+.to-top:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    padding: 5px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+#footer-link {
+    font-size: 1.1em;
+}
+
+#footer-text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.food-parent-div {
+    box-sizing: border-box;
+    padding: 5px;
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-div {
+    margin-top: 3em;
+}
+
+.image-div img {
+    display: block;
+}
+
+#pizza-text {
+    margin: auto;
+}
+
+#pizza-par1 {
+    margin-bottom: 3em;
+}
+
+#pizza-image-div {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+#sushi-text {
+    margin: auto;
+}
+
+#sushi-par1 {
+    margin-bottom: 3em;
+}
+
+#sushi-image-div {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: .1em;
+}
+
+#bibimbap-text {
+    margin: auto; 
+}
+
+#bibimbap-par1 {
+    margin-bottom: 3em;
+}
+
+#bibimbap-image-div {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+
+.to-top {
+    background-color: rgb(245, 241, 230);
+    box-shadow: 6px 8px 15px #2e2d2dc7;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
